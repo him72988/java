@@ -1,0 +1,25 @@
+
+//factorial
+
+public class MyClass {
+    public static void main(String args[]) {
+      
+      int i=1;
+      int n=9;
+      int fab =1;
+      while (i<=9)
+      
+       
+       {
+        fab=fab*i;
+        
+         {
+            System.out.print(fab + " ");
+            
+        }
+        i++;
+       }
+        
+        
+    }
+}
