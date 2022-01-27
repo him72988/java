@@ -1,0 +1,22 @@
+//Write a program to find the factorial value of any number entered through the keyboard.
+import java.util.Scanner;
+public class fab {
+    
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int n ;
+        n = sc.nextInt();
+        System.out.println( "enter the number");
+        
+      
+      
+      int fab =1;
+      
+      for(int i=1; i<=n; i++)
+        {
+            fab *= i;
+        }
+        
+        System.out.println( fab);
+    }
+}
