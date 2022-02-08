@@ -1,0 +1,9 @@
+public class MyClass {
+    public static void main(String[] args){
+        int a ,b,c;
+        a=b=c=5;
+        System.out.println("assigment operator ofa:" +(a));
+        System.out.println("assigment operator ofa:" +(b));
+        System.out.println("assigment operator ofa:" +(c));
+    }
+}
