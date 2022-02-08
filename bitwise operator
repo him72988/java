@@ -1,0 +1,10 @@
+public class MyClass {
+    public static void main(String[] args){
+        int a = 5;//binary of 5 is (101)
+        int b= 6;// binary of 6 is (110)
+        System.out.println("Bitwise of a and  b :" +(a&b));//
+         System.out.println("Bitwise of a and  b :" +(a^b));
+          System.out.println("Bitwise of a and  b :" +(a|b));
+           System.out.println("Bitwise of a and  b :" +(~a));
+    }
+}
