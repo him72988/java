@@ -1,0 +1,13 @@
+public class MyClass {
+    public static void main(String[] args){
+        String out;
+        int a =5;
+        int b =6;
+        
+        out = a==b?"yes":"no";
+        
+        System.out.println("the value of a:" +(out));
+          a+=4;
+       
+    }
+}
