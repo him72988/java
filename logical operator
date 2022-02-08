@@ -1,0 +1,8 @@
+public class logic{
+    public static void main(String[]args){
+        boolean boll1 = true , boll2 = false;
+        System.out.println("boolean :" + (boll1 && boll2));
+          System.out.println("boolean :" + (boll1 || boll2));
+            System.out.println("boolean :" + !(boll1 && boll2));
+    }
+}
